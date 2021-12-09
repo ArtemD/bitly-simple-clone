@@ -2,11 +2,21 @@
 
 This project allows you to create short links (ex. domain.com/short) that redirect to long urls.
 
-## Requirements
+# Requirements
 
-- Django
+- Django 4
+- SQLite (local development)
+- PostgreSQL (production)
 
-## License
+# Setting up development enviroment
+
+```bash
+pipenv install
+pipenv shell
+./manage.py runserver
+```
+
+# License
 
 Copyright 2021 Artem Daniliants (@ArtemD)
 
