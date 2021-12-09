@@ -1,6 +1,6 @@
-# fly.toml file generated for bclone-staging on 2021-12-09T14:09:04+02:00
+# fly.toml file generated for bclone-production on 2021-12-09T14:28:11+02:00
 
-app = "bclone-staging"
+app = "bclone-production"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
