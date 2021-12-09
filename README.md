@@ -8,6 +8,7 @@ This project allows you to create short links (ex. domain.com/short) that redire
 - Django 4
 - SQLite (local development)
 - PostgreSQL (production)
+- (optional) Docker
 
 # Setting up development enviroment
 
@@ -16,6 +17,10 @@ pipenv install
 pipenv shell
 ./manage.py runserver
 ```
+
+# Deployment
+
+Deployment happens via GitHub actions and uses Fly.io for hosting.
 
 # License
 
