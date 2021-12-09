@@ -1,3 +1,4 @@
+[![Django CI](https://github.com/ArtemD/bitly-simple-clone/actions/workflows/django.yml/badge.svg)](https://github.com/ArtemD/bitly-simple-clone/actions/workflows/django.yml)
 # About
 
 This project allows you to create short links (ex. domain.com/short) that redirect to long urls.
